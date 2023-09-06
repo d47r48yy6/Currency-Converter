@@ -32,7 +32,7 @@ public class CurrencyConverter {
             Scanner sc= new Scanner(System.in);
 
             System.out.println("***** Welcome to Currency Converter *****");
-            System.out.println("Currency Converting From ?");
+            System.out.println("Currency Converting From ? ");
             System.out.println("1: USD (US Dollar) \t 2:CAD (Canadian Dollar) \t 3:EUR (Euro )\t 4:HKD (HongKong dollar) \t5:INR (Indian Rupees)");
             from = sc.nextInt();
             while (from < 1 || from > 5)
