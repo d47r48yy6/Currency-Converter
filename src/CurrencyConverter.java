@@ -21,8 +21,10 @@ public class CurrencyConverter {
             // Add a currency Codes
             currencyCodes.put(1, "USD");
             currencyCodes.put(2, "CAD");
-            currencyCodes.put(3, "HKD");
-            currencyCodes.put(4, "INR");
+            currencyCodes.put(3, "EUR");
+            currencyCodes.put(4, "HKD");
+            currencyCodes.put(5, "INR");
+
 
             int to , from;
 
@@ -103,7 +105,7 @@ public class CurrencyConverter {
 
         }
         else {
-            System.out.println("GET Request failed  !!");
+            System.out.println("GET Request failed !!");
         }
 
     }
