@@ -44,7 +44,8 @@ public class CurrencyConverter {
             fromCode =currencyCodes.get(from);
 
             System.out.println("Currency Converting To ?");
-            System.out.println("1: USD (US Dollar) \t 2:CAD (Canadian Dollar) \t 3:HKD (HongKong Dollar )\t4:INR (Indian Rupees)");
+            System.out.println("1: USD (US Dollar) \t 2:CAD (Canadian Dollar) \t 3:EUR (Euro )\t 4:HKD (HongKong dollar) \t5:INR (Indian Rupees)");
+
             to = sc.nextInt();
             while (to < 1 || to > 5)
             {
